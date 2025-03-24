@@ -8,6 +8,7 @@
 #include <utility>
 
 //! Wrapper around [IPv4 addresses](@ref man7::ip) and DNS operations.
+// 将dns与ipv4地址封装在一起
 class Address
 {
 public:

@@ -14,7 +14,7 @@ private:
   //! Get the local or peer address the socket is connected to
   Address get_address( const std::string& name_of_function,
                        const std::function<int( int, sockaddr*, socklen_t* )>& function ) const;
-
+  // 嵌套定义的类
 protected:
   //! Construct via [socket(2)](\ref man2::socket)
   Socket( int domain, int type, int protocol = 0 );
@@ -56,7 +56,7 @@ public:
   //! Check for errors (will be seen on non-blocking sockets)
   void throw_if_error() const;
 };
-
+// 这里是重点
 class DatagramSocket : public Socket
 {
 public:
@@ -79,7 +79,7 @@ protected:
 };
 
 //! A wrapper around [UDP sockets](\ref man7::udp)
-class UDPSocket : public DatagramSocket
+class UDPSocket : public DatagramSocket // udp socket 继承了datagram socket
 {
   //! \param[in] fd is the FileDescriptor from which to construct
   explicit UDPSocket( FileDescriptor&& fd ) : DatagramSocket( std::move( fd ), AF_INET, SOCK_DGRAM ) {}

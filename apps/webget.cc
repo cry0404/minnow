@@ -9,8 +9,26 @@ using namespace std;
 
 void get_URL( const string& host, const string& path )
 {
-  cerr << "Function called: get_URL(" << host << ", " << path << ")\n";
-  cerr << "Warning: get_URL() has not been implemented yet.\n";
+  // cerr << "Function called: get_URL(" << host << ", " << path << ")\n";
+  // cerr << "Warning: get_URL() has not been implemented yet.\n";
+  TCPSocket socket;
+  Address address( host, "http" );
+  socket.connect( address );
+  socket.write( "GET " + path + " HTTP/1.1\r\n" );
+  socket.write( "Host: " + host + "\r\n" );
+  socket.write( "Connection: close\r\n" );
+  socket.write( "\r\n" );
+  while ( true ) {
+    string buffer;
+    socket.read( buffer );
+    std::cout << buffer;
+    if ( buffer.empty() ) {
+      break;
+    }
+  }
+  socket.shutdown( SHUT_RDWR );
+  socket.close();
+  return;
 }
 
 int main( int argc, char* argv[] )
@@ -18,6 +36,7 @@ int main( int argc, char* argv[] )
   try {
     if ( argc <= 0 ) {
       abort(); // For sticklers: don't try to access argv[0] if argc <= 0.
+      // 当输入的参数
     }
 
     auto args = span( argv, argc );

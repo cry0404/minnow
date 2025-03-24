@@ -13,12 +13,13 @@ class FileDescriptor
   class FDWrapper
   {
   public:
-    int fd_;                    // The file descriptor number returned by the kernel
-    bool eof_ = false;          // Flag indicating whether FDWrapper::fd_ is at EOF
-    bool closed_ = false;       // Flag indicating whether FDWrapper::fd_ has been closed
+    int fd_;              // The file descriptor number returned by the kernel,由内核返回的文件标识符
+    bool eof_ = false;    // Flag indicating whether FDWrapper::fd_ is at EOF
+    bool closed_ = false; // Flag indicating whether FDWrapper::fd_ has been closed
     bool non_blocking_ = false; // Flag indicating whether FDWrapper::fd_ is non-blocking
-    unsigned read_count_ = 0;   // The number of times FDWrapper::fd_ has been read
-    unsigned write_count_ = 0;  // The numberof times FDWrapper::fd_ has been written
+                                // ，这三个都是检查文件标识符当前状态，其实就是检查文件状态
+    unsigned read_count_ = 0;  // The number of times FDWrapper::fd_ has been read
+    unsigned write_count_ = 0; // The numberof times FDWrapper::fd_ has been written
 
     // Construct from a file descriptor number returned by the kernel
     explicit FDWrapper( int fd );

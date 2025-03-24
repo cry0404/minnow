@@ -1,0 +1,290 @@
+[
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/address.cc.o -c /home/cry/minnow/util/address.cc",
+  "file": "/home/cry/minnow/util/address.cc",
+  "output": "util/CMakeFiles/util_debug.dir/address.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/debug.cc.o -c /home/cry/minnow/util/debug.cc",
+  "file": "/home/cry/minnow/util/debug.cc",
+  "output": "util/CMakeFiles/util_debug.dir/debug.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/eventloop.cc.o -c /home/cry/minnow/util/eventloop.cc",
+  "file": "/home/cry/minnow/util/eventloop.cc",
+  "output": "util/CMakeFiles/util_debug.dir/eventloop.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/file_descriptor.cc.o -c /home/cry/minnow/util/file_descriptor.cc",
+  "file": "/home/cry/minnow/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_debug.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/helpers.cc.o -c /home/cry/minnow/util/helpers.cc",
+  "file": "/home/cry/minnow/util/helpers.cc",
+  "output": "util/CMakeFiles/util_debug.dir/helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/random.cc.o -c /home/cry/minnow/util/random.cc",
+  "file": "/home/cry/minnow/util/random.cc",
+  "output": "util/CMakeFiles/util_debug.dir/random.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/util_debug.dir/socket.cc.o -c /home/cry/minnow/util/socket.cc",
+  "file": "/home/cry/minnow/util/socket.cc",
+  "output": "util/CMakeFiles/util_debug.dir/socket.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/address.cc.o -c /home/cry/minnow/util/address.cc",
+  "file": "/home/cry/minnow/util/address.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/address.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/debug.cc.o -c /home/cry/minnow/util/debug.cc",
+  "file": "/home/cry/minnow/util/debug.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/debug.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/eventloop.cc.o -c /home/cry/minnow/util/eventloop.cc",
+  "file": "/home/cry/minnow/util/eventloop.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/eventloop.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/file_descriptor.cc.o -c /home/cry/minnow/util/file_descriptor.cc",
+  "file": "/home/cry/minnow/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/helpers.cc.o -c /home/cry/minnow/util/helpers.cc",
+  "file": "/home/cry/minnow/util/helpers.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/random.cc.o -c /home/cry/minnow/util/random.cc",
+  "file": "/home/cry/minnow/util/random.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/random.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/socket.cc.o -c /home/cry/minnow/util/socket.cc",
+  "file": "/home/cry/minnow/util/socket.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/socket.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/address.cc.o -c /home/cry/minnow/util/address.cc",
+  "file": "/home/cry/minnow/util/address.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/address.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/debug.cc.o -c /home/cry/minnow/util/debug.cc",
+  "file": "/home/cry/minnow/util/debug.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/debug.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/eventloop.cc.o -c /home/cry/minnow/util/eventloop.cc",
+  "file": "/home/cry/minnow/util/eventloop.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/eventloop.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/file_descriptor.cc.o -c /home/cry/minnow/util/file_descriptor.cc",
+  "file": "/home/cry/minnow/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/helpers.cc.o -c /home/cry/minnow/util/helpers.cc",
+  "file": "/home/cry/minnow/util/helpers.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/random.cc.o -c /home/cry/minnow/util/random.cc",
+  "file": "/home/cry/minnow/util/random.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/random.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/util",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/util_optimized.dir/socket.cc.o -c /home/cry/minnow/util/socket.cc",
+  "file": "/home/cry/minnow/util/socket.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/socket.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/byte_stream.cc.o -c /home/cry/minnow/src/byte_stream.cc",
+  "file": "/home/cry/minnow/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_debug.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.o -c /home/cry/minnow/src/byte_stream_helpers.cc",
+  "file": "/home/cry/minnow/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o -c /home/cry/minnow/src/byte_stream.cc",
+  "file": "/home/cry/minnow/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o -c /home/cry/minnow/src/byte_stream_helpers.cc",
+  "file": "/home/cry/minnow/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/minnow_optimized.dir/byte_stream.cc.o -c /home/cry/minnow/src/byte_stream.cc",
+  "file": "/home/cry/minnow/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/src",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o -c /home/cry/minnow/src/byte_stream_helpers.cc",
+  "file": "/home/cry/minnow/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/minnow_testing_debug.dir/common.cc.o -c /home/cry/minnow/tests/common.cc",
+  "file": "/home/cry/minnow/tests/common.cc",
+  "output": "tests/CMakeFiles/minnow_testing_debug.dir/common.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_testing_sanitized.dir/common.cc.o -c /home/cry/minnow/tests/common.cc",
+  "file": "/home/cry/minnow/tests/common.cc",
+  "output": "tests/CMakeFiles/minnow_testing_sanitized.dir/common.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o -c /home/cry/minnow/tests/byte_stream_basics.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_basics.cc",
+  "output": "tests/CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o -c /home/cry/minnow/tests/byte_stream_basics.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_basics.cc",
+  "output": "tests/CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o -c /home/cry/minnow/tests/byte_stream_capacity.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_capacity.cc",
+  "output": "tests/CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /home/cry/minnow/tests/byte_stream_capacity.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_capacity.cc",
+  "output": "tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o -c /home/cry/minnow/tests/byte_stream_one_write.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_one_write.cc",
+  "output": "tests/CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o -c /home/cry/minnow/tests/byte_stream_one_write.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_one_write.cc",
+  "output": "tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o -c /home/cry/minnow/tests/byte_stream_two_writes.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_two_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /home/cry/minnow/tests/byte_stream_two_writes.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_two_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o -c /home/cry/minnow/tests/byte_stream_many_writes.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_many_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o -c /home/cry/minnow/tests/byte_stream_many_writes.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_many_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o -c /home/cry/minnow/tests/byte_stream_stress_test.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_stress_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o -c /home/cry/minnow/tests/byte_stream_stress_test.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_stress_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/no_skip_sanitized.dir/no_skip.cc.o -c /home/cry/minnow/tests/no_skip.cc",
+  "file": "/home/cry/minnow/tests/no_skip.cc",
+  "output": "tests/CMakeFiles/no_skip_sanitized.dir/no_skip.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/no_skip.dir/no_skip.cc.o -c /home/cry/minnow/tests/no_skip.cc",
+  "file": "/home/cry/minnow/tests/no_skip.cc",
+  "output": "tests/CMakeFiles/no_skip.dir/no_skip.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/tests",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -O2 -DNDEBUG -o CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o -c /home/cry/minnow/tests/byte_stream_speed_test.cc",
+  "file": "/home/cry/minnow/tests/byte_stream_speed_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/apps",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o -c /home/cry/minnow/apps/bidirectional_stream_copy.cc",
+  "file": "/home/cry/minnow/apps/bidirectional_stream_copy.cc",
+  "output": "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/apps",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/stream_sanitized.dir/bidirectional_stream_copy.cc.o -c /home/cry/minnow/apps/bidirectional_stream_copy.cc",
+  "file": "/home/cry/minnow/apps/bidirectional_stream_copy.cc",
+  "output": "apps/CMakeFiles/stream_sanitized.dir/bidirectional_stream_copy.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/apps",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/webget.dir/webget.cc.o -c /home/cry/minnow/apps/webget.cc",
+  "file": "/home/cry/minnow/apps/webget.cc",
+  "output": "apps/CMakeFiles/webget.dir/webget.cc.o"
+},
+{
+  "directory": "/home/cry/minnow/run/build/apps",
+  "command": "/usr/bin/c++  -I/home/cry/minnow/util -I/home/cry/minnow/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -Wno-non-virtual-dtor -g -std=gnu++20 -o CMakeFiles/tcp_native.dir/tcp_native.cc.o -c /home/cry/minnow/apps/tcp_native.cc",
+  "file": "/home/cry/minnow/apps/tcp_native.cc",
+  "output": "apps/CMakeFiles/tcp_native.dir/tcp_native.cc.o"
+}
+]
