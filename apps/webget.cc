@@ -1,4 +1,4 @@
-#include "socket.hh"
+#include "tcp_minnow_socket.hh"
 
 #include <cstdlib>
 #include <iostream>
@@ -7,28 +7,28 @@
 
 using namespace std;
 
-void get_URL( const string& host, const string& path )
+void get_URL(const string& host, const string& path)
 {
-  // cerr << "Function called: get_URL(" << host << ", " << path << ")\n";
-  // cerr << "Warning: get_URL() has not been implemented yet.\n";
-  TCPSocket socket;
-  Address address( host, "http" );
-  socket.connect( address );
-  socket.write( "GET " + path + " HTTP/1.1\r\n" );
-  socket.write( "Host: " + host + "\r\n" );
-  socket.write( "Connection: close\r\n" );
-  socket.write( "\r\n" );
-  while ( true ) {
+  CS144TCPSocket socket;
+  Address address(host, "http");
+  socket.connect(address);
+  
+  // 发送HTTP请求，使用一次write调用发送完整请求
+  string request = "GET " + path + " HTTP/1.1\r\n"
+                + "Host: " + host + "\r\n"
+                + "Connection: close\r\n\r\n";
+  socket.write(request);
+  
+  // 读取响应直到连接关闭
+  while (!socket.eof()) {
     string buffer;
-    socket.read( buffer );
-    std::cout << buffer;
-    if ( buffer.empty() ) {
-      break;
-    }
+    socket.read(buffer);
+    cout << buffer;
   }
-  socket.shutdown( SHUT_RDWR );
+  
+  // 清理连接
+  socket.wait_until_closed();
   socket.close();
-  return;
 }
 
 int main( int argc, char* argv[] )

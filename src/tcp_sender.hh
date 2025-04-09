@@ -2,17 +2,31 @@
 
 #include "byte_stream.hh"
 #include "tcp_receiver_message.hh"
-#include "tcp_sender_message.hh"
-
+#include "tcp_sender_message.hh" // Include the header defining TCPSenderMessage
 #include <functional>
-
+#include <queue>
 class TCPSender
 {
 public:
   /* Construct TCP sender with given default Retransmission Timeout and possible ISN */
-  TCPSender( ByteStream&& input, Wrap32 isn, uint64_t initial_RTO_ms )
-    : input_( std::move( input ) ), isn_( isn ), initial_RTO_ms_( initial_RTO_ms )
-  {}
+  TCPSender( 
+    ByteStream&& input, 
+    Wrap32 isn, 
+    uint64_t initial_RTO_ms
+  ): input_( std::move( input ) ), 
+    isn_( isn ), 
+    initial_RTO_ms_( initial_RTO_ms ),
+    next_seqno_(0),
+    retransmissions_(0),
+    bytes_in_flight_(0),
+    window_size_(1),
+    ackno_(std::nullopt),
+    fin_sent_(false),
+    RTO_ms_(initial_RTO_ms),
+    time_since_last_activity_(0),
+    timer_running_(false),
+    outstanding_segments_()
+  {};
 
   /* Generate an empty TCPSenderMessage */
   TCPSenderMessage make_empty_message() const;
@@ -42,4 +56,20 @@ private:
   ByteStream input_;
   Wrap32 isn_;
   uint64_t initial_RTO_ms_;
+  uint64_t next_seqno_ = 0;
+  uint64_t retransmissions_ = 0;
+  uint64_t bytes_in_flight_ = 0;
+  uint64_t window_size_ = 1;
+  std::optional<Wrap32> ackno_{};
+  bool fin_sent_ = false;
+
+  uint64_t RTO_ms_ = 0;
+  uint64_t time_since_last_activity_ = 0;
+  bool timer_running_ = false;
+
+  struct OutstandingSegment{
+    TCPSenderMessage msg;
+    uint64_t time_sent;
+  };
+  std::queue<OutstandingSegment> outstanding_segments_;
 };

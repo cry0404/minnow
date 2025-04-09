@@ -5,8 +5,21 @@ using namespace std;
 
 void Reassembler::insert(uint64_t first_index, string data, bool is_last_substring)
 {
-  debug("unimplemented insert({}, {}, {}) called", first_index, data, is_last_substring);
-  
+ // 先检查索引是否在合理范围内
+  // 如果first_index大于当前索引加上可用容量，直接丢弃
+  if (first_index > next_index + output_.writer().available_capacity()) {
+    // 只处理is_last_substring标志
+    if (is_last_substring) {
+      eof_rec = true;
+      eof_index = first_index + data.size();
+      
+      if (next_index >= eof_index) {
+        output_.writer().close();
+      }
+    }
+    return; // 直接返回，不存储数据
+  }
+
   // note: 一定先判断发过来的字节流类型，以及是否是最后一串字节流
   if (data.empty()) {
     if (is_last_substring) {
@@ -167,7 +180,7 @@ void Reassembler::insert(uint64_t first_index, string data, bool is_last_substri
 
 uint64_t Reassembler::count_bytes_pending() const
 {
-  debug("unimplemented count_bytes_pending() called");
+  
   uint64_t count = 0;
   for (const auto& pair : pending_data) {
     count += pair.second.size();
