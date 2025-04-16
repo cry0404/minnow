@@ -6,6 +6,7 @@
 
 #include <memory>
 #include <queue>
+#include <map>
 
 // A "network interface" that connects IP (the internet layer, or network layer)
 // with Ethernet (the network access layer, or link layer).
@@ -82,4 +83,27 @@ private:
 
   // Datagrams that have been received
   std::queue<InternetDatagram> datagrams_received_ {};
+
+  // ARP 表，记录 IP 地址到 MAC 地址及其有效期的映射
+  struct ARPEntry {
+    EthernetAddress eth_addr;
+    uint64_t expiry_time;  // 到期时间
+  };
+  std::map<uint32_t, ARPEntry> arp_table_ {};
+
+  // 等待 ARP 响应的 IP 地址到发送时间的映射
+  std::map<uint32_t, uint64_t> arp_request_time_ {};
+
+  // 挂起的数据报，带有时间戳
+  // 存储结构: IP -> 队列<(添加时间戳, 数据报)>
+  std::map<uint32_t, std::queue<std::pair<uint64_t, InternetDatagram>>> pending_dgram_info_ {};
+
+  // 当前时间，用于 ARP 超时计算
+  uint64_t current_time_ = 0;
+
+  // ARP 表项超时时间（毫秒）
+  static constexpr uint64_t ARP_TIMEOUT_ = 30000; // 30秒
+
+  // ARP 请求超时时间（毫秒）
+  static constexpr uint64_t ARP_REQUEST_TIMEOUT_ = 5000; // 5秒
 };
